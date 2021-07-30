@@ -1,0 +1,31 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Gowun Dodum', sans-serif !important;
+}
+
+.btn-warning:hover {
+    color: white !important;
+    background-color: black !important;
+}
+
+.bk-card{
+    border: 1px solid black;
+    box-shadow: 3px 2px #888888;
+    border-radius: 8px;
+    border-top: none;
+}
+
+.row.bk-card {
+    margin: 0;
+}
+
+.price{
+    color: #53a9a9;
+    font-weight: bold;
+}
+
+.btn-custom{
+    background-color: #53a9a9 !important;
+    color: white !important;
+    font-weight: bold !important;
+}
