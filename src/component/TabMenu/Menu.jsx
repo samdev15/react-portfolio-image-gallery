@@ -24,7 +24,7 @@ function Menu() {
                     <button className="btn btn-md btn-warning" onClick={() => filterItem('morning')}>Morning</button>
                 </div>
                 <div className="menu-item">
-                    <button className="btn btn-md btn-warning" onClick={() => filterItem('snacks')}>Snacks</button>
+                    <button className="btn btn-md btn-warning" onClick={() => filterItem('breakfast')}>Breakfast</button>
                 </div>
                 <div className="menu-item">
                     <button className="btn btn-md btn-warning" onClick={() => filterItem('lunch')}>Lunch</button>
@@ -50,10 +50,10 @@ function Menu() {
                                         <div className="col-4" key={elem.id}>
                                             <div className="row bk-card">
                                                 <div className="col-4">
-                                                    <img src={elem.image} alt={elem.title} width="150px" height="150px" />
+                                                    <img src={elem.image} alt={elem.name} width="150px" height="150px" />
                                                 </div>
                                                 <div className="card-body col-8">
-                                                    <h5 className="card-title">{elem.title}</h5>
+                                                    <h5 className="card-title">{elem.name}</h5>
                                                     <p className="card-text">{elem.description}</p>
                                                     <div className="row">
                                                         <div className="col-6 price">{elem.price}</div>

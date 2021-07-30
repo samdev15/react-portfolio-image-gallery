@@ -1,6 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap");
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
 body{
     background-color: aquamarine;
-    font-family: 'Gowun Dodum', sans-serif !important;
 }
 
 .btn-warning:hover {
@@ -9,10 +14,12 @@ body{
 }
 
 .bk-card{
-    border: 1px solid black;
-    box-shadow: 3px 2px #888888;
-    border-radius: 8px;
-    border-top: none;
+    height: 220px;
+    border-radius: 12px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 .row.bk-card {
@@ -20,8 +27,9 @@ body{
 }
 
 .price{
-    color: #53a9a9;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 400;
+    color: #4db6ac;
 }
 
 .btn-custom{
