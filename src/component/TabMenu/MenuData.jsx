@@ -1,7 +1,7 @@
 const Data = [
     {
         id: 1,
-        image: "react-portfolio-image-gallery/images/maggi.jpg",
+        image: "/images/maggi.jpg",
         name: "maggi",
         category: "breakfast",
         price: "12₹",
@@ -10,7 +10,7 @@ const Data = [
 
     {
         id: 2,
-        image: "react-portfolio-image-gallery/images/allupakoida.jpg",
+        image: "/images/allupakoida.jpg",
         name: "allu pakoida",
         category: "evening",
         price: "20₹",
@@ -18,7 +18,7 @@ const Data = [
     },
     {
         id: 3,
-        image: "react-portfolio-image-gallery/images/corn.jpg",
+        image: "/images/corn.jpg",
         name: "corn",
         category: "breakfast",
         price: "10₹",
@@ -26,7 +26,7 @@ const Data = [
     },
     {
         id: 4,
-        image: "react-portfolio-image-gallery/images/chola.jpg",
+        image: "/images/chola.jpg",
         name: "chola",
         category: "lunch",
         price: "50₹",
@@ -34,7 +34,7 @@ const Data = [
     },
     {
         id: 5,
-        image: "react-portfolio-image-gallery/images/pizza.jpg",
+        image: "/images/pizza.jpg",
         name: "pizza",
         category: "evening",
         price: "80₹",
@@ -42,7 +42,7 @@ const Data = [
     },
     {
         id: 6,
-        image: "react-portfolio-image-gallery/images/nonvegthali.jpg",
+        image: "/images/nonvegthali.jpg",
         name: "Non-Veg Thali",
         category: "dinner",
         price: "180₹",
@@ -50,7 +50,7 @@ const Data = [
     },
     {
         id: 7,
-        image: "react-portfolio-image-gallery/images/sweet.jpg",
+        image: "/images/sweet.jpg",
         name: "Sweets",
         category: "dinner",
         price: "60₹",
@@ -58,7 +58,7 @@ const Data = [
     },
     {
         id: 8,
-        image: "react-portfolio-image-gallery/images/rajmarice.jpg",
+        image: "/images/rajmarice.jpg",
         name: "Rajma Rice",
         category: "lunch",
         price: "60₹",
@@ -66,7 +66,7 @@ const Data = [
     },
     {
         id: 9,
-        image: "react-portfolio-image-gallery/images/samosa.jpg",
+        image: "/images/samosa.jpg",
         name: "samaso",
         category: "morning",
         price: "10₹",
