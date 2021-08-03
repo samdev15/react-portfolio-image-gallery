@@ -72,6 +72,14 @@ const Data = [
         price: "10₹",
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
     },
+    {
+        id: 10,
+        image: "images/samosa.jpg",
+        name: "samaso",
+        category: "timepass",
+        price: "10₹",
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
+    },
 ];
 
 export default Data;
